@@ -4,7 +4,7 @@ rustflags = [
   "-C", "link-arg=-Tlink.x",
   "-C", "link-arg=-Thal_defaults.x",
 ]
-runner = "blash --"
+runner = "./run.sh"
 
 [build]
 target = "riscv32imac-unknown-none-elf"
